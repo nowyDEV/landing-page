@@ -1,0 +1,240 @@
+body {
+    color: #757575;
+    font-family: "Slabo", serif;
+    font-size: 16px;
+    font-weight: 300;
+    background: #ecf8fe;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* PHONE PANEL */
+
+.phone-panel {
+    position: relative;
+    top: -1em;
+    background-color: #403f3f;
+    text-align: right;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    line-height: 3;
+    margin: 0;
+    padding-right: 3em;
+}
+
+.phone-panel img {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: 0.4em;
+}
+
+
+/* ########################################### */
+
+
+/* WRAPPER */
+
+.wrap {
+    position: relative;
+}
+
+
+/* ########################################### */
+
+
+/* MAIN CONTENT */
+
+header {
+    background-color: rgba(51, 51, 51, 0.3);
+    color: #ffffff;
+    height: 90px;
+    position: relative;
+    top: -1.47em;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 1.54em;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 0.7em;
+    position: relative;
+    left: 1em;
+}
+
+header nav ul {
+    text-align: right;
+    margin: 0.625em;
+    padding-right: 4em;
+}
+
+header nav ul li {
+    display: inline;
+    line-height: 4em;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+
+.main-image {
+    position: relative;
+}
+
+.main-image img {
+    position: relative;
+    width: 960px;
+    left: -0.6em;
+    top: -7.12em;
+    z-index: 1;
+}
+
+.main-image article {
+    text-align: justify;
+    color: #ffefd0;
+    font-family: "Marck Script";
+    font-size: 0.75em;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    position: absolute;
+    top: -3em;
+    z-index: 3;
+    margin-top: 0.4em;
+    text-indent: 2em;
+}
+
+
+/* ########################################### */
+
+
+/* SECONDARY CONTENT */
+
+
+/* SERVICES */
+
+.main-services {
+    background-color: #ffffff;
+}
+
+.main-services article {
+    margin-top: -4em;
+    margin-bottom: 2em;
+}
+
+.main-services h2 {
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 0.05em 0.05em #aeaeae;
+    color: #000000;
+}
+
+.main-services ul {
+    color: #000000;
+    font-size: 0.9em;
+    list-style: outside none circle;
+    text-align: justify;
+    margin: 0.4em;
+    line-height: 1.4;
+}
+
+.main-services ul li:nth-child(1) {
+    list-style: outside none disc;
+    margin-left: -1em;
+}
+
+
+/* ########################################### */
+
+
+/* QUICK PANEL */
+
+.main-quick-panel {
+    background-color: #ffffff;
+    margin-top: 0.4em;
+}
+
+.main-quick-panel article {
+    text-align: center;
+}
+
+.main-quick-panel article img {
+    padding-top: 3em;
+}
+
+.main-quick-panel article p {
+    padding: 0 2em;
+}
+
+.button {
+    background-clip: border-box;
+    background-color: #601d1d;
+    border: 1px solid transparent;
+    border-radius: 0.4em;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 3.5em;
+    outline: medium none;
+    padding: 0 1.2em;
+    width: 6em;
+}
+
+.button:hover {
+    background-color: #12719d;
+}
+
+
+/* ########################################### */
+
+
+/* SOCIAL MEDIA */
+
+.main-socialmedia {
+    margin-top: 0.4em;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.main-socialmedia h3 {
+    text-align: center;
+    position: relative;
+}
+
+.main-socialmedia article {
+    padding-top: 3em;
+    text-align: center;
+}
+
+
+/* ########################################### */
+
+
+/* FOOTER */
+
+footer {
+    background-color: #403f3f;
+}
+
+footer ul {
+    font-weight: bold;
+}
+
+footer ul li {
+    display: inline;
+    padding-left: 2em;
+}
+
+footer p {
+    text-align: right;
+    color: #ffffff;
+}
